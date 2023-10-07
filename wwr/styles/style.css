@@ -1,0 +1,54 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+#hero-msg h4 .button-box,
+main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color: #b39c92;
+}
+
+header {
+  background-color: #452e21;
+}
+
+footer {
+  background-color: #b39c92;
+}
+
+nav a:hover {
+  background-color: #b39c92;
+  color: #452e21;
+}
+
+nav a,
+footer p,
+footer p a,
+.social a,
+.join {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p a:hover,
+.join:hover {
+  color: #651b03;
+  text-decoration: none;
+}
+
+.logo,
+.icon {
+  width: 80px;
+}
+
+.msg {
+  background-color: #b39c92;
+}
