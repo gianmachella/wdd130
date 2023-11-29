@@ -180,11 +180,6 @@ main section img {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.home-grid-service {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
 .card-img,
 .mountains {
   width: 100%;
@@ -207,19 +202,19 @@ main section img {
 
 .rivers-card-service {
   grid-column: 2/5;
-  grid-row: 1/2;
+  grid-row: 2/3;
   margin: 30px;
 }
 
 .camping-card-service {
   grid-column: 7/10;
-  grid-row: 1/2;
+  grid-row: 2/3;
   margin: 30px;
 }
 
 .rapids-card-service {
   grid-column: 4/8;
-  grid-row: 2/3;
+  grid-row: 3/4;
   margin: 30px;
 }
 
