@@ -488,3 +488,41 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
+
+.title-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title-container:hover .image {
+  opacity: 0.3;
+}
+
+.title-container:hover .middle {
+  opacity: 1;
+}
+
+.btn-logo {
+  width: 100px;
+  padding: 16px 32px;
+}
