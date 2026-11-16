@@ -88,7 +88,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: 110px;
+    top: 120px;
     left: 48px;
     right: 48px;
     margin: 0;
@@ -101,4 +101,16 @@ h1 {
     float: right;
     width: 125px;
     margin: 8px;
+}
+
+/* Small screens: keep the mission box in the flow, below the hero photo */
+@media (max-width: 860px) {
+    header, main, footer {
+        width: 100%;
+    }
+
+    .hero article {
+        position: static;
+        margin: 16px;
+    }
 }
